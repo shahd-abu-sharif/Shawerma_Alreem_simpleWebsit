@@ -31,7 +31,7 @@ body {
 }
 
 
-/* Header Styles */
+
 header {
     background-color: var(--darkGreen);
     color: white;
@@ -73,7 +73,7 @@ nav a:hover, nav a.active {
     color: white;
 }
 
-/*------- Greeting Section ------- */
+
 .greeting {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(1, 27, 7, 0.7)), url('images/resturant2.jpg');
     background-size: cover;
@@ -174,7 +174,7 @@ nav a:hover, nav a.active {
     color: var(--orange);
 }
 
-/* Special Dishes */
+
 .special-dishes {
     padding: 60px ;
     background-color: #f1f1f1;
@@ -459,37 +459,3 @@ main .wishlist{
     border-top-left-radius: 8px; border-top-right-radius: 8px;
 }
 
-/* Responsive Styles */
-/* @media (max-width: 768px) {
-    .about-content {
-        flex-direction: column;
-    }
-    
-    .wishlist-item {
-        flex-direction: column;
-    
-    }
-    
-    nav ul {
-        gap: 10px;
-    }
-    
-    .greeting h2 {
-        font-size: 2rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .navbar {
-        width: 95%;
-    }
-    
-    .logo h1 {
-        font-size: 1.5rem;
-    }
-    
-    nav ul {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-} */
